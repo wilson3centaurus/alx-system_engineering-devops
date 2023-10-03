@@ -1,9 +1,2 @@
 #!/bin/bash
-file="iacta"
-line_number=3
-if [ -e "$file" ]; then
-  result=$(head -n $line_number "$file" | tail -n 1)
-  echo "$result"
-else
-  echo "File '$file' not found in the current directory."
-fi
+head -n 3 /root//alx-system_engineering-devops/0x02-shell_redirections/iacta | tail -n 1
