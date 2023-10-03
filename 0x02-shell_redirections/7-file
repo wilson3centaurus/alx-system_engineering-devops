@@ -1,0 +1,5 @@
+#!/bin/bash
+touch -- "$(cat << '.'
+\*\\'"Best School"\'\\*$\?\*\*\*\*\*:) 
+.
+)"; echo "Best School" >> "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
